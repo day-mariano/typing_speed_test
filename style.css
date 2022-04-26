@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(40, 56, 66);
+    background-color: aliceblue;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+header {
+    background-color: rgb(29, 49, 77);
+    color: white;
+    margin: 0px;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+#description {
+    background-color: rgb(81, 142, 199);
+    color: white;
+    width: 100%;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+#description p {
+    width: 600px;
+    padding: 1rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /*flex-wrap: wrap;*/
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
+#origin-text {
+    background-color: rgb(209, 208, 208);
+    width: 600px;
+    padding: 18px;
+    border-radius: 8px;
+}
+#input-text {
+    width: 600px;
+    height: 36px;
+    padding: 16px;
+    margin-top: 1rem;
+    border-color: darkgray;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+}
+.button-wrapper {
+    display: flex;
+    margin: 1rem 0px;
+}
+.timer {
+    color: rgb(40, 56, 66);
+    font-size: 36px;
+    margin-right: 2rem;
+}
+#reset{
+    width: 150px;
+    font-size: medium;
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255, 213, 24);
+    border-radius: 8px;
+}
+#img-typing {
+    width: 250px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+@media (max-width: 975px) {
+    #description p {
+        width: 400px;
+    }
+    #origin-text {
+        width: 400px;
+    }
+    #input-text {
+        width: 400px;
+    }
+}
+@media (max-width: 424px) {
+    #description p {
+        width: 200px;
+    }
+    #origin-text {
+        width: 200px;
+    }
+    #input-text {
+        width: 200px;
+    }
+    .button-wrapper {
+        display: block;
+    }
+    #img-typing {
+        display: none;
+    }
+}

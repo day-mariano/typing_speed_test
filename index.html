@@ -5,21 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Typing Speed Test</h1>
     </header>
-    <div>
-        <p>
-            This is a typing test. Your goal is to duplicate the text provided EXACTLY in the field below. The timer starts when you start typing and only stops when your text is identical to the original. Good luck!
-        </p>
-    </div>
-    <div>Test</div>
-    <input type="text" name="" id="">
-    <div>
-        <div>00:00:00</div>
-        <button type="submit">Start again</button>
+    <div class="section">
+        <div id="description">
+            <p>
+                This is a typing test. Your goal is to duplicate the text provided EXACTLY in the field below. The timer starts when you start typing and only stops when your text is identical to the original. Good luck!
+            </p>
+        </div>
+        <div id="origin-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum magni iure sunt atque omnis, alias vitae sint hic accusamus eaque possimus perspiciatis dicta illum saepe sit nihil nesciunt voluptates.
+        </div>
+        <input type="text" name="" id="input-text">
+        <div class="button-wrapper">
+            <div class="timer">00:00:00</div>
+            <button id="reset" type="submit">Start again</button>
+        </div>
+        <img src="typing.png" alt="" srcset="" id="img-typing">
     </div>
 </body>
 <footer>
