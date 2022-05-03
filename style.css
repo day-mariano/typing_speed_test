@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: center;
 }
-#description {
+.intro {
     background-color: rgb(81, 142, 199);
     color: white;
     width: 100%;
@@ -25,12 +25,12 @@ header {
     display: flex;
     justify-content: center;
 }
-#description p {
+.intro p {
     width: 600px;
     padding: 1rem;
     margin: 0%;
 }
-.section {
+.main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -45,7 +45,7 @@ header {
     padding: 18px;
     border-radius: 8px;
 }
-#input-text {
+#test-area {
     width: 600px;
     height: 36px;
     padding: 16px;
@@ -55,9 +55,10 @@ header {
     border-width: 3px;
     border-radius: 8px;
 }
-.button-wrapper {
+.meta {
     display: flex;
     margin: 1rem 0px;
+    justify-content: center;
 }
 .timer {
     color: rgb(40, 56, 66);
@@ -75,34 +76,34 @@ header {
 }
 #img-typing {
     width: 200px;
-    margin: 0%;
+    margin: auto;
 }
 footer {
     display: flex;
     justify-content: center;
 }
 @media (max-width: 975px) {
-    #description p {
+    .intro p {
         width: 400px;
     }
     #origin-text {
         width: 400px;
     }
-    #input-text {
+    #test-area {
         width: 400px;
     }
 }
 @media (max-width: 424px) {
-    #description p {
+    .intro p {
         width: 200px;
     }
     #origin-text {
         width: 200px;
     }
-    #input-text {
+    #test-area{
         width: 200px;
     }
-    .button-wrapper {
+    .meta {
         display: block;
     }
     #img-typing {
