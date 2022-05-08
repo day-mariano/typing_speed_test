@@ -6,5 +6,4 @@ Repositorio destinado a um projeto do curso JavaScript: Formação Básica do Li
 - CSS
 - JavaScript
 
-
-![Preview](preview.png)
+![Preview](images/preview.png)
